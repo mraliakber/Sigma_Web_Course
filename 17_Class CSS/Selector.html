@@ -5,19 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selectors</title>
     <style>
-        .box {
-    background: orange;
-    width:200px;
-    height:100px;
-
-    padding:20px;
-    margin:50px;
-}
+        /* universal Selectors */
+        *{
+           margin: 90;
+           padding: 90;
+           background-color: orange;
+        }
+        /* element selector  */
+        h2{
+            background-color: purple;
+        }
+        /* group selector */
+        p, span {
+            background-color: yellowgreen;
+        }
+        /* Child Selector  */
+        div > p {
+            background-color: aqua;
+        }
     </style>
 </head>
 <body>
-    <div class="box">
-    Ali Akber
-</div>
+    <div>
+        <h1>Hello World </h1>
+        <p>This is a world that is use in programming more than me..</p>
+    </div>
+    <h2>I am a sub-heading</h2>
+    <p>Hello I am a para</p>
+    <span>Hello am a span</span>
 </body>
 </html>

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@100..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      }
+      body{
+        background:#080616;
+      color: white;
+      font-family:"Playpen Sans Hebrew", cursive;
+      }
+ 
+      img{
+        width: 500px;
+        border-radius: 30px ;
+margin: auto  ;  
+display: block;
+
+    }
+.hero{
+    background: greenyellow;
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    }
+    a{
+       text-decoration: none;
+       color: #1A312C;
+    }
+    a:hover{
+        color: #080616;
+    }
+    .logo{
+font-weight: bold;
+font-size: 30px ;
+color:#1A312C;
+  }
+.content{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 80px;
+}
+.hero-text{
+    width: 50%;
+}
+img{
+ 
+
+}
